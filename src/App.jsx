@@ -16,7 +16,13 @@ function Footer() {
 }
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <Content />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
