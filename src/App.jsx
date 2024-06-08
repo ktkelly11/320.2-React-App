@@ -2,8 +2,18 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
+
+function Header() {
+  return <h1>Simple React Application</h1>;
+}
+
+function Content(props) {
+  return <p style={{ color: props.color }}>{props.text}</p>;
+}
+
+function Footer() {
+  return <h1>Created by Me, of course.</h1>;
+}
 
 function App() {
   return (

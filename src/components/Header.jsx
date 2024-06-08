@@ -1,5 +1,5 @@
-function Header() {
-  return <h1>Simple React Application</h1>;
-}
+// function Header() {
+//   return <h1>Simple React Application</h1>;
+// }
 
-export default Header;
+// export default Header;
